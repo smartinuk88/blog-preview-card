@@ -42,6 +42,10 @@ main {
   cursor: pointer;
 }
 
+.card.card--error .card-content__title {
+  color: var(--yellow);
+}
+
 .card:hover .card-content__title,
 .card:active .card-content__title,
 .card:focus .card-content__title {
